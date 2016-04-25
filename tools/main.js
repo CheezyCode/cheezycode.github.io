@@ -1,7 +1,7 @@
 $(window).load(function () {
     $.each(document.styleSheets, function (sheetIndex, sheet) {
         var isShow = false;
-        if (sheet.href.indexOf('font-awesome')) {
+        if (sheet.href && sheet.href.indexOf('font-awesome')) {
             $.each(sheet.cssRules || sheet.rules, function (ruleIndex, rule) {
                 if (rule.cssText.indexOf(".fa-glass::before") != -1) {
                     isShow = true;
