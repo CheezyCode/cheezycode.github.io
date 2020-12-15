@@ -1,73 +1,3 @@
-/*-------------------------------------------------------------------------------------
-Theme Name: Snowlake
-Theme URI:	http://themes.iki-bir.com/snowlake/start.html
-Version:	1.0.1
-Author:		elemis
-01. RESET
-02. GENERAL
-03. NAVBAR
-04. STICKY HEADER
-05. MEGA MENU
-06. HAMBURGER MENU ICON
-07. OFFCANVAS
-08. SEARCH
-09. CART
-10. BUTTON
-11. BOX
-12. WRAPPERS
-13. IMAGE BACKGROUND WRAPPER
-14. IMAGE BLOCK WRAPPER
-15. VIDEO BACKGROUND WRAPPER
-16. SHADOW
-17. ROUNDED CORNERS
-18. CIRCLE
-19. DIVIVDER
-20. DROPCAP
-21. BADGE
-22. ALERT
-23. MODAL
-24. BLOCKQUOTE
-25. LISTS
-26. SERVICES
-27. CLIENTS
-28. FIGURE
-29. OVERLAY
-30. TILES
-31. BLOG
-32. WIDGETS
-33. PAGINATION
-34. BREADCRUMBS
-35. COMMENTS
-36. DIAL
-37. PROGRESS
-38. COUNTER
-39. COUNTDOWN
-40. TABS
-41. ACCORDION / COLLAPSE
-42. TABLES
-43. PRICING
-44. SHOP
-45. RATING
-46. TOOLTIP
-47. POPOVER
-48. COLUMNS & GUTTERS
-49. SLIDER REVOLUTION
-50. OWL CAROUSEL
-51. ISOTOPE
-52. PLYR
-53. SOCIAL ICONS
-54. FORMS
-55. LIGHTGALLERY
-56. SCROLL ANIMATIONS
-57. LOADING
-58. FONT ICONS LIST
-59. LINEAR ICONS LIST
-60. SPLIT LAYOUT
-61. COLORS
-62. INVERSE TEXT
-63. BOX LAYOUT
-64. RESPONSIVE
--------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------*/
 /*	01. RESET
 /*-----------------------------------------------------------------------------------*/
@@ -2064,11 +1994,7 @@ ol {
     max-width: 100%;
     -webkit-mask-size: auto auto;
 }
-.img-blob.blob1 img {
-    -webkit-mask-box-image: url(style/images/blob/blob1.svg);
-    mask-image: url(style/images/blob/blob1.svg);
-    -webkit-mask-box-image-repeat: space;
-}
+
 .img-blob.blob2 img {
     -webkit-mask-box-image: url(style/images/blob/blob2.svg);
     mask-image: url(style/images/blob/blob2.svg);
