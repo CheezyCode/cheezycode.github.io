@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+  }
+html {
+  scroll-behavior: smooth;
+}
+body{
+	width: 100vw;
+	overflow-x: hidden;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	background: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.center_wrapper{
+	position:relative;height:inherit;margin:auto
+}
+.center_wrapper{
+	max-width:1300px;min-width:820px;padding:0 36px 0 36px
+}
+
+section{opacity:1;transition:1.4s}
+
+.full_width{
+		width: 100vw;
+		background-color: #F2F2F2;
+	}
+
+.card{
+	background: #FFFFFF;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	padding: 40px;
+	transition: 0.5s;
+}
+@media only screen and (max-width: 770px) {
+  .center_wrapper{
+
+		max-width:calc(100vw - 52px);min-width:calc(100vw - 52px);padding:0 26px;
+	}
+	.primary{
+		height: 55px;
+		line-height: 55px;
+		min-width: 123px;
+	}
+
+}
+.header-navigation a{ font-size: 18px; margin-right: 70px; text-decoration: none;}
+.header-navigation a:hover {border-bottom: 2px solid #ff480c;}
+.makes-us-tick p{color: #FFFFFF;}
+.makes-us-tick .border-wrap {padding-bottom: 15px; background: url(./assets/border-repeat.png) repeat-x bottom;}
+.make-us-categories{ display: flex;	justify-content: center; margin-top:35px;}
+.make-us-categories	.make-us-common{
+  width: 33.3%;
+  margin: 10px;
+  text-align: left;
+  line-height: 75px;
+  font-size: 30px;
+	}
+.make-us-common h3 ,.make-us-common p, .border-wrap h2, .form-wraper h2, .form-wraper p,.our-work h2{margin:0; padding:0;  color:#fff;}
+.make-us-common h3{font-size:18px;  line-height: 35px;}
+.make-us-common p{font-size: 14px; line-height: 25px;}
+
+.form-wraper h2,.form-wraper p {margin-top: 25px;}
+
+.form-wraper{background-color: #4E2BD0;}
+.form-wraper .column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .form-wraper .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  .form-bg{background: #fff; padding:40px; margin-top:50px}
+  .form-bg label{
+	margin:15px 0;
+	display: block;
+  }
+  .form-bg input,  .form-bg textarea{
+	  width: 100%;
+	  border:1px solid #000; border-radius: 5px;	
+}
+.form-bg input{height: 40px; padding:0 10px;}
+.form-bg textarea {height: 150px;padding:10px;}
+.form-bg .btn-submit{width:150px; height: 50px;  cursor: pointer;}
+.btn-submit{background-color:#4E2BD0; font-size: 16px; display: inline-block; color: #fff;}
+.our-work{background:#F9F7FE;     min-height: auto;
+    padding-top: 50px;
+    margin-top: 50px;}
+.our-work h2{color:#4735C8}
+.animation-wrap{position: relative;}
+.animation-box{position: absolute; top: 45%;
+    left: 42%; font-size:22px; font-weight: 500;}
+.quotes {display: none;}
